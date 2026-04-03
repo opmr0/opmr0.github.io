@@ -10,8 +10,13 @@ const config = {
       precompress: false,
       strict: true
     }),
+
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/opmr0.github.com' : ''
+    },
+
     prerender: {
-      handleHttpError: ({ path, referrer, message }) => {
+      handleHttpError: ({ path, message }) => {
         if (path.includes('favicon')) return;
         throw new Error(message);
       }
