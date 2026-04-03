@@ -407,35 +407,6 @@
   .stats-card {
     padding: 1.25rem 1.75rem;
   }
-  .stats-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .stat-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-  }
-  .stat-n {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1;
-  }
-  .stat-l {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 10px;
-    color: #333;
-    letter-spacing: 0.08em;
-  }
-  .stat-divider {
-    width: 1px;
-    height: 36px;
-    background: #1e1e1e;
-  }
 
   /* SKILLS */
   .skills-grid {
