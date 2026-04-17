@@ -16,7 +16,7 @@
 </script>
 
 <div class="cell h-full flex flex-col">
-  <span class="cell-label">languages &amp; tools</span>
+  <span class="cell-label">~/tech_stack</span>
   <div class="cell-body flex flex-wrap gap-1.5 content-start overflow-hidden">
     {#each skills as skill}
       <div class="skill-chip">

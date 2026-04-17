@@ -37,7 +37,7 @@
 </script>
 
 <div class="cell h-full flex flex-col">
-  <span class="cell-label">projects · github</span>
+  <span class="cell-label">~/projects/github</span>
 
   {#if loading}
     <div class="flex-1 flex items-center justify-center">

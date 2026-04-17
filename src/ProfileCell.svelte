@@ -1,11 +1,11 @@
 <div class="cell h-full">
-  <span class="cell-label">profile</span>
+  <span class="cell-label">~/profile</span>
   <div class="cell-body flex flex-col h-full">
 
-    <div class="flex flex-col gap-3 mt-1 flex-1">
+    <div class="flex gap-3 mt-1 flex-1 content-center">
       <div class="w-9 h-9 rounded-full border border-border-hi flex items-center justify-center mb-1">
-        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#555" stroke-width="1.5">
-          <path stroke-linecap="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+        <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="#555" stroke-width="1.5">
+          <img src="https://github.com/opmr0.png" alt="logo" class="rounded-full">
         </svg>
       </div>
 
@@ -14,13 +14,9 @@
           Omar
         </h1>
         <p class="font-mono text-dim mt-1" style="font-size: 9px; letter-spacing: 0.2em;">
-          BACKEND DEVELOPER
+          RUST & BACKEND DEVELOPER
         </p>
       </div>
-
-      <p class="text-dim leading-relaxed" style="font-size: 12.5px; max-width: 32ch;">
-        Self-taught. Building CLI tools and backend systems in Rust. Exploring cybersecurity.
-      </p>
     </div>
 
     <div class="flex flex-col gap-2.5 pb-1 mt-2">

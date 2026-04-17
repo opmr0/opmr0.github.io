@@ -3,7 +3,6 @@
   import ProjectsCell from "./ProjectsCell.svelte";
   import LearningCell from "./LearningCell.svelte";
   import SkillsCell from "./SkillsCell.svelte";
-  import InterestsCell from "./InterestsCell.svelte";
   import TerminalCell from "./TerminalCell.svelte";
 </script>
 
@@ -13,7 +12,6 @@
     <div class="area-projects"><ProjectsCell /></div>
     <div class="area-terminal"><TerminalCell /></div>
     <div class="area-skills"><SkillsCell /></div>
-    <div class="area-interests"><InterestsCell /></div>
     <div class="area-learning"><LearningCell /></div>
   </div>
 </main>
@@ -33,13 +31,13 @@
       display: grid;
       width: 100%;
       height: 100%;
-      gap: 5px;
-      grid-template-columns: 1fr 1.4fr 1.4fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px;
+      grid-template-columns: 1fr 1.2fr 1.5fr;
+      grid-template-rows: 0.4fr 1fr 0.6fr;
       grid-template-areas:
         "profile   projects  projects"
         "terminal  projects  projects"
-        "skills    interests learning";
+        "terminal  skills learning";
     }
   }
   .area-profile {
@@ -56,10 +54,6 @@
   }
   .area-skills {
     grid-area: skills;
-    min-height: 0;
-  }
-  .area-interests {
-    grid-area: interests;
     min-height: 0;
   }
   .area-learning {
@@ -93,8 +87,9 @@
       padding: 8px;
     }
     .portfolio-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; 
       grid-template-rows: 220px 220px 380px 180px 160px 260px;
+      gap: 24px;
       grid-template-areas:
         "profile"
         "terminal"
